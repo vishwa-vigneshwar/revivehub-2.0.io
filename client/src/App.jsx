@@ -22,9 +22,6 @@ export default function App() {
 
       <HeroStats />
 
-      <section id="booking">
-        <BookingForm />
-      </section>
 
       <section id="about">
         <About />
@@ -47,7 +44,11 @@ export default function App() {
       </section>
 
       <section id="cta">
+
         <CTA />
+      </section>
+            <section id="booking">
+        <BookingForm />
       </section>
 
       <section id="contact">
