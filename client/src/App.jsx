@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import FounderSection from "./components/FounderSection";
 import HeroStats from "./components/HeroStats";
 import BookingForm from "./components/BookingForm";
 import Services from "./components/Services";
@@ -21,6 +22,11 @@ export default function App() {
       </section>
 
       <HeroStats />
+  
+
+       <FounderSection />
+
+
 
 
       <section id="about">
